@@ -96,8 +96,8 @@ export const footerData = {
     {
       title: 'Links',
       links: [
-        { text: 'Substack', href: 'https://boxingundefeated.substack.com/' },
-        { text: 'Hashnode', href: 'https://boxingundefeated.hashnode.dev/' },
+        { text: 'Substack', href: 'https://boxingundefeated.substack.com/', target: '_blank' },
+        { text: 'Hashnode', href: 'https://boxingundefeated.hashnode.dev/', target: '_blank' },
       ],
     },
     {
@@ -116,16 +116,16 @@ export const footerData = {
     { text: 'Free Stuff', href: 'https://stuff.boxingundefeated.com' },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://serp.ly/@boxingundefeated/twitter' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://serp.ly/@boxingundefeated/instagram' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/boxundefeated' },
-    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: 'https://serp.ly/@boxingundefeated/youtube' },
-    { ariaLabel: 'YouTube', icon: 'tabler:brand-linkedin', href: 'https://linkedin.com/company/boxingundefeated' },
-    { ariaLabel: 'YouTube', icon: 'tabler:brand-tiktok', href: 'https://tiktok.com/@boxundefeated' },
-    { ariaLabel: 'YouTube', icon: 'tabler:brand-medium', href: 'https://medium.com/boxing-undefeated' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://serp.ly/@boxingundefeated/twitter', target: '_blank' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://serp.ly/@boxingundefeated/instagram', target: '_blank' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/boxundefeated', target: '_blank' },
+    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: 'https://serp.ly/@boxingundefeated/youtube', target: '_blank' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://linkedin.com/company/boxingundefeated', target: '_blank' },
+    { ariaLabel: 'TikTok', icon: 'tabler:brand-tiktok', href: 'https://tiktok.com/@boxundefeated', target: '_blank' },
+    { ariaLabel: 'Medium', icon: 'tabler:brand-medium', href: 'https://medium.com/boxing-undefeated', target: '_blank' },
   ],
-  footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
-  `,
+  // footNote: `
+  //   <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
+  //   Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+  // `,
 };
