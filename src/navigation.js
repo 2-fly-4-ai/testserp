@@ -32,11 +32,13 @@ export const headerData = {
       links: [
         {
           text: 'YouTube',
-          href: getPermalink('/boxers'),
+          href: 'https://youtube.com/@boxingundefeated',
+          target: '_blank',
         },
         {
           text: 'Full Fights',
-          href: getPermalink('/weight-classes'),
+          href: 'https://youtube.com/@boxingundefeated-fightarchive',
+          target: '_blank',
         },
       ],
     },
@@ -47,30 +49,26 @@ export const headerData = {
           text: 'Blog',
           href: getBlogPermalink(),
         },
-        {
-          text: 'Categories',
-          href: getPermalink('blog', 'category'),
-        },
-        {
-          text: 'Glossary',
-          href: getPermalink('/glossary'),
-        },
+        // {
+        //   text: 'Glossary',
+        //   href: getPermalink('/glossary'),
+        // },
       ],
     },
-    {
-      text: 'Shop',
-      links: [
-        {
-          text: 'Shop',
-          href: getPermalink('/shop'),
-        },
-        {
-          text: 'Categories',
-          href: getPermalink('/shop/best'),
-        },
+    // {
+    //   text: 'Shop',
+    //   links: [
+    //     {
+    //       text: 'Shop',
+    //       href: getPermalink('/shop'),
+    //     },
+    //     {
+    //       text: 'Categories',
+    //       href: getPermalink('/shop/best'),
+    //     },
 
-      ],
-    },
+    //   ],
+    // },
    
   ],
   actions: [{ text: 'Subscribe', href: '/subscribe', target: '_blank' }],
@@ -98,6 +96,7 @@ export const footerData = {
       links: [
         { text: 'Substack', href: 'https://boxingundefeated.substack.com/', target: '_blank' },
         { text: 'Hashnode', href: 'https://boxingundefeated.hashnode.dev/', target: '_blank' },
+        { text: 'Medium', href: 'https://medium.com/boxing-undefeated', target: '_blank' },
       ],
     },
     {
