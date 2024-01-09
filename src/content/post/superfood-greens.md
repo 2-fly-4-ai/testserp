@@ -1,6 +1,6 @@
 ---
 title:  "The Best Green Superfood Powder Drinks"
-image: /src/assets/images/featured/supergreens.png
+image: /public/images/featured/supergreens.png
 slug: /shop/best/superfood-greens-powder-drinks/
 publishDate: 2023-01-02T00:00:00Z
 category: Health & Fitness
