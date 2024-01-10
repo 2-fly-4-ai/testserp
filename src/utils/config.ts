@@ -67,6 +67,8 @@ export interface AnalyticsConfig {
   };
 }
 
+export const BASE_URL = '/astro-newsletter';
+
 const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
   site?: SiteConfig;
   metadata?: MetaDataConfig;

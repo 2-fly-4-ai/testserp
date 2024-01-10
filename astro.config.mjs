@@ -9,8 +9,13 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import tasks from './src/utils/tasks';
+import cloudflare from '@astrojs/cloudflare';
 
-import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter.mjs';
+import {
+  readingTimeRemarkPlugin,
+  responsiveTablesRehypePlugin,
+  externalAnchorPlugin,
+} from './src/utils/frontmatter.mjs';
 
 import { ANALYTICS, SITE } from './src/utils/config.ts';
 
@@ -27,8 +32,10 @@ export default defineConfig({
   site: SITE.site,
   base: SITE.base,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
+  // adapter: cloudflare(),
 
   output: 'static',
+  // output: 'hybrid',
 
   integrations: [
     tailwind({
@@ -67,7 +74,7 @@ export default defineConfig({
   },
 
   markdown: {
-    remarkPlugins: [readingTimeRemarkPlugin],
+    remarkPlugins: [readingTimeRemarkPlugin, externalAnchorPlugin],
     rehypePlugins: [responsiveTablesRehypePlugin],
   },
 
